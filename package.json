@@ -1,0 +1,19 @@
+{
+  "name": "vue-teller",
+  "version": "0.0.1",
+  "description": "vue-teller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akifo/vue-teller.git"
+  },
+  "author": "Akiho Nagao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akifo/vue-teller/issues"
+  },
+  "homepage": "https://github.com/akifo/vue-teller#readme"
+}
