@@ -16,7 +16,7 @@ module.exports = {
   },
 
   output: {
-    publicPath: '/',
+    publicPath: './',
     path: resolve('../docs'),
     filename: 'js/[name].js'
   },
