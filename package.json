@@ -3,7 +3,6 @@
   "version": "0.0.3",
   "description": "vue-teller",
   "author": "Akiho Nagao",
-  "private": true,
   "scripts": {
     "dev": "npm run dev:examples",
     "dev:examples": "webpack-dev-server --config examples/build/webpack.dev.conf.js",
