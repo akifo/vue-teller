@@ -1,0 +1,93 @@
+$vue-color = #42b983
+$link-color = #22a7f0
+$text-color = #2f3144
+
+html
+  font-size: 14px
+  font-weight: 400
+  line-height: 1.5
+  color: $text-color
+  background: #fff
+
+body
+  margin: 0
+  padding: 0
+  width: 100%
+  position: relative
+
+.vue-teller-header
+  position: relative
+  z-index: 1
+  .vue-teller-navi-wrap
+    display: flex
+    padding: 5px 15px
+    border: 1px solid #ddd
+    h1
+      flex: 1 1 auto
+      color: $vue-color
+      margin: 0 5px 0 0
+      padding: 0
+    ul
+      flex: 0 1 auto
+      margin: 0
+      padding: 0
+      li
+        margin: 0
+        padding: 0
+        list-style: none
+        a
+          display: inline-block
+          .fa.fa-github
+            cursor: pointer
+            font-size: 3rem
+            color: #24292e
+            transition: transform .4s ease
+            transform: scale(.7)
+            &:hover
+              transform: scale(1)
+
+.vue-teller-firstview
+  background-color: #f3fbf3
+  padding: 2rem 0 2rem
+  h1
+    font-size: 2rem
+    margin: 0
+    padding: 0
+  p
+    font-size: 1rem
+    margin: 0
+    padding: 0
+  .vue-teller-breadcrumb-wrap
+    ul
+      margin: 2rem 0 0
+      padding: 0
+      font-size: .9rem
+      li
+        display: inline-block
+        margin: 0 5px 0 0
+        padding: 0
+        a
+          color: $link-color
+        .fa.fa-angle-right
+          margin: 0 0 0 5px
+
+#app
+  margin: 3rem 0
+  padding: 0
+
+.container
+  width: 90%
+  max-width: 1200px
+  margin: 0 auto
+
+.btn
+  display: inline-block
+  padding: .2em 1em
+  color: #fff
+  background-color: #d91e18
+  border: 1px solid #cf000f
+  border-radius: 2px
+  cursor: pointer
+  &:hover
+    background-color: #d64541
+    border-color: #f22613

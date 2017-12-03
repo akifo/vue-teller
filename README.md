@@ -1,6 +1,5 @@
 # VueTeller
 
-**Don't use!! It's still dev**
 vue-teller is error handling module.
 
 [DEMO](https://akifo.github.io/vue-teller/)
